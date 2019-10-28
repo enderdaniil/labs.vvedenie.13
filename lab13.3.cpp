@@ -1,5 +1,6 @@
 #include <iostream>
 #include <math.h>
+#include <vector>
 using namespace std;
 int main()
 {
@@ -9,7 +10,7 @@ int main()
   cin>>n;
   cout<<"Vvedite A and B"<<endl;
   cin>>a>>b;
-  float arr[n];
+  vector<float> arr(n);
   arr[0]=a;
   arr[1]=b;
   sum=a+b;
